@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom';
 
 const Recipe = () => {
@@ -10,7 +10,7 @@ const Recipe = () => {
     
 
     const getAllRecipe = async()=>{
-        let res = await fetch('https://api.edamam.com/search?q=${searchItem}&app_id=26191d65&app_key=f77ae1b0c4f48d6ee1e88cc38426e90f')
+        let res = await fetch(`https://api.edamam.com/search?q=${searchItem}&app_id=26191d65&app_key=f77ae1b0c4f48d6ee1e88cc38426e90f`)
 
         let data = await res.json()
 

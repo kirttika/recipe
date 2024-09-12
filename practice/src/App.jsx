@@ -21,14 +21,14 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route path = '/' element ={<Home/>}/>
+      {/* <Route path = '/' element ={<Home/>}/> */}
       <Route path ='/about' element ={<About/>}/>
       <Route pth ='/*' element ={<PNF/>}/>
       <Route path ='/xyz' element ={<Counter/>}/>
       <Route path ='/expense' element ={<ExpenseTracker/>}/>
     <Route path='conditionalRendering' element = {<ConditionalRindering />}/>
     <Route path='/api' element={<TrailApi/>}/>
-    <Route path='/abc' element={<Recipe/>}/>
+    <Route path='/' element={<Recipe/>}/>
     <Route path='/recipe' element={<Viewrecipe/>}/>
 
       </Routes>

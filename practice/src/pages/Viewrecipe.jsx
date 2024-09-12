@@ -5,7 +5,7 @@ const ViewRecipe = () => {
     let location = useLocation();
     let navigate = useNavigate()
     console.log(location)
-    let recipe = location.state.recipe
+    let recipe = location.state.recipe;
 
     const methodClick = (ans)=>{
       // console.log(ans)
