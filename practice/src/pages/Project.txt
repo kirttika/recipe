@@ -1,0 +1,6 @@
+
+https://api.edamam.com/search?q=biryani&app_id=26191d65&app_key=f77ae1b0c4f48d6ee1e88cc38426e90f
+
+appid = 26191d65
+
+  appkey = f77ae1b0c4f48d6ee1e88cc38426e90f
